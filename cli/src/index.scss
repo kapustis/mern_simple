@@ -1,0 +1,38 @@
+@import "~materialize-css";
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+input.yellow-input {
+  border-bottom: 1px solid #fff !important;
+  box-shadow: 0 1px 0 0 #fff !important;
+}
+
+input.yellow-input + label {
+  color: #ffffff !important;
+}
+
+input.yellow-input:focus + label {
+  color: #ffeb3b !important;
+}
+
+input.yellow-input:focus {
+  border-bottom: 1px solid #ffeb3b !important;
+  box-shadow: 0 1px 0 0 #ffeb3b !important;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill, {
+  -webkit-box-shadow: inset 0 0 0 50px #1E88E5 !important; /* Цвет фона */
+  -webkit-text-fill-color: #000000 !important; /* цвет текста */
+  color: #000000 !important; /* цвет текста */
+}
+

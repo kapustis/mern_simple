@@ -1,0 +1,8 @@
+{
+  "port": 3001,
+  "jwtSecret": "wrdesafet_#!",
+  "mongoUri1": "mongodb://AdminUser:abc123@127.0.0.1:27017/?authSource=admin.newDB",
+  "mongoUri": "mongodb://localhost:27017/test",
+  "baseUrl": "http://localhost:3001"
+
+}
