@@ -3,6 +3,6 @@
   "jwtSecret": "wrdesafet_#!",
   "mongoUri1": "mongodb://AdminUser:abc123@127.0.0.1:27017/?authSource=admin.newDB",
   "mongoUri": "mongodb://localhost:27017/test",
-  "baseUrl": "http://localhost:3001"
-
+  "baseUrl": "http://localhost:3001",
+  "mongoUriCloud": "mongodb+srv://mern:RootrooT2020@cluster0.mrel5.azure.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
 }

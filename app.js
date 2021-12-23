@@ -22,15 +22,15 @@ const PORT = config.get('port') || 3001;
 
 async function start() {
   try {
-    await mongoose.connect(config.get('mongoUri'),
+    await mongoose.connect(config.get('mongoUriCloud'),
       {
         useNewUrlParser: true,
         useUnifiedTopology: true,
-        useCreateIndex: true
+        
       })
     app.listen(PORT, () => console.log(`Server run! on port ${PORT}`));
   } catch (errorInfo) {
-    console.log('Server Error', errorInfo.message)
+    console.log('Server Error -', errorInfo.message)
     process.exit(1)
   }
 }
